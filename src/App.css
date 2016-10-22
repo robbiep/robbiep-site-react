@@ -1,0 +1,51 @@
+.App {
+  position: fixed;
+  text-align: center;
+  background: #C0CDD8;
+  min-height: 100%;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.App-header {
+  background-color: #8093a8;
+  padding: 10px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-body {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.masthead {
+  width: 100%;
+}
+
+#menu ul{
+  list-style: none;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+  width: auto;
+  cursor: pointer;
+  text-align: center;
+}
+
+#menu ul li {
+  display: inline;
+  margin: 5px 20px;
+  font-size: 40px;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  color: #333a43;
+}
+
+#menu ul li a:hover {
+  color: #1b1f24;
+}
